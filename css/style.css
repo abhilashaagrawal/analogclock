@@ -1,0 +1,35 @@
+.container{
+    width:50vw;
+    height:50vw;
+    background: url('../img/watch1.jpeg') no-repeat;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 0.80%;
+    height: 11%;
+    top: 26.5%;
+    left: 50%;
+    opacity:0.8;   
+}
+#minute{
+    width: 0.5%;
+    height: 14%;
+    top: 23.5%;
+    left: 50.25%;
+    opacity:0.8; 
+}
+#second{
+    width: 0.25%;
+    height: 18%;
+    top: 19.5%;
+    left: 50.25%;
+    opacity:0.8;    
+}
